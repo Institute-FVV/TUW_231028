@@ -2,7 +2,7 @@
 This folder contains exercises for TU Wien course 231.028 "Methods and Models in Transport and Settlement Planning".
 
 ### folder structure
-📂 TUW_231028sur
+📂 TUW_231028
 - 📄 README.md
 - 📄 .gitignore
 - 📄 exercise.ipynb: for students less familiar with Python
@@ -16,14 +16,14 @@ This folder contains exercises for TU Wien course 231.028 "Methods and Models in
     - 📄 GPS_trip1.csv
     - 📄 GPS_trip2.csv
   - 📂 Survey_data
-    - 📄 survey)data.csv
+    - 📄 survey_data.csv
   - 📂 GTFS
     - 📄 agency.txt
     - 📄 calendar.txt
     - 📄 calendar_dates.txt
     - 📄 ...
 
-Note: the data folder is stored externally at this [link](https://tuwienacat-my.sharepoint.com/:f:/g/personal/bingyu_zhao_tuwien_ac_at/EkhK2y95nU9Pu7jBNSX6zsEBuMzb1rslbH7gBzFF0UsmvQ?e=Tf5iA8). You need to download the data folder and place it at the right location in the root folder.
+Note: the data folder is stored externally at this [link](https://tuwienacat-my.sharepoint.com/:f:/g/personal/bingyu_zhao_tuwien_ac_at/Ejn-nn8-TtFOn0GC5m3_jMcBDC2msjWdhQ8ln6mmDUkqdQ). You need to download the data folder and place it at the right location in the root folder.
 
 ### how to use
 It is recommended to run the scripts on Google Colab:
