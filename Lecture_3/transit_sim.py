@@ -12,7 +12,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib import rc
-rc('font',**{'family':'serif','serif':['Times']})
+rc('font',**{'family':'serif','serif':['Times', 'Times New Roman', 'DejaVu Serif']})  ### DejaVu Serif ships with matplotlib (fallback on Colab/Linux)
 
 ### crs
 project_crs='epsg:4326'
@@ -56,7 +56,7 @@ class Trains():
         all_nodes['stop_id'] = all_nodes['route_stop_id'].apply(lambda x: x.split('-')[1])
         all_nodes['type'] = 'platform'
         ### station nodes
-        virtual_nodes = all_nodes.groupby('stop_id').agg({'stop_lon': np.mean, 'stop_lat': np.mean}).reset_index(drop=False)
+        virtual_nodes = all_nodes.groupby('stop_id').agg({'stop_lon': 'mean', 'stop_lat': 'mean'}).reset_index(drop=False)
         virtual_nodes['stop_lon'] *= 0.999999
         virtual_nodes['route_stop_id'] = virtual_nodes['stop_id'].apply(lambda x: 'all-{}'.format(x))
         virtual_nodes['type'] = 'station'
