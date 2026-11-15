@@ -11,7 +11,6 @@ Code and data are kept apart, with one folder per lecture or homework in each: a
   - 📄 descriptive_statistics.ipynb
   - 📄 regression_prepare.ipynb
   - 📄 regression.ipynb
-  - 📄 discrete_choice.ipynb
   - 📄 discrete_choice_RUM.ipynb
   - 📄 transit_sim.py
 - 📂 Lecture_4
@@ -52,8 +51,7 @@ Lecture 3:
 * Descriptive statistics: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/descriptive_statistics.ipynb)
 * Regression (preparation): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/regression_prepare.ipynb)
 * Regression: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/regression.ipynb)
-* Discrete choice: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/discrete_choice.ipynb)
-* Discrete choice (random utility): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/discrete_choice_RUM.ipynb)
+* Discrete choice (random utility model): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/discrete_choice_RUM.ipynb)
 
 Lecture 4:
 * Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_4/exercise.ipynb)
