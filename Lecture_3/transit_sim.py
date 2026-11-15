@@ -12,7 +12,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 from matplotlib import rc
-rc('font',**{'family':'serif','serif':['Times', 'Times New Roman', 'DejaVu Serif']})  ### DejaVu Serif ships with matplotlib (fallback on Colab/Linux)
+rc('font',**{'family':'serif','serif':['DejaVu Serif']})  ### ships with matplotlib, so it works the same locally and on Colab
 
 ### crs
 project_crs='epsg:4326'
