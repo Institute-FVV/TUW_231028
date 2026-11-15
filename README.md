@@ -26,16 +26,24 @@ Code and data are kept apart: all code is in this repository, all data goes in t
     - 📄 README.md: data sources
     - 📂 regression_emission_data
     - 📂 vienna_gtfs
-  - 📂 Lecture_4 (used by exercise and homework)
-    - 📄 data_source.txt
+  - 📂 Lecture_4 (used by exercise.ipynb and exercise_empty.ipynb)
     - 📂 GPS
     - 📂 survey_data
+  - 📂 Homework (used by homework.ipynb)
+    - 📄 data_source.txt
     - 📂 GTFS
 
 ### data
-The data is not part of this repository. Download `Lecture_3.zip` and `Lecture_4.zip` from this [link](TODO_DATA_LINK_2026).
-- **Locally:** unzip both into the `data` folder in the root of this repository, so you get `data/Lecture_3/...` and `data/Lecture_4/...`.
-- **On Google Colab:** upload the zip file and run `!unzip -o Lecture_4.zip -d data` (or `Lecture_3.zip`). The first cells of each notebook show how.
+The data is not part of this repository. Download the zip file(s) you need from this [link](TODO_DATA_LINK_2026):
+
+| zip file | needed for |
+|---|---|
+| `Lecture_3.zip` | notebooks in `Lecture_3` |
+| `Lecture_4.zip` | `exercise.ipynb`, `exercise_empty.ipynb` |
+| `Homework.zip` | `homework.ipynb` |
+
+- **Locally:** unzip into the `data` folder in the root of this repository, so you get `data/Lecture_3/...`, `data/Lecture_4/...` and `data/Homework/...`.
+- **On Google Colab:** upload the zip file and run e.g. `!unzip -o Homework.zip -d data`. The first cells of each notebook show how.
 
 ### how to use
 It is recommended to run the scripts on Google Colab:
