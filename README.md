@@ -4,14 +4,11 @@ This folder contains exercises for TU Wien course 231.028 "Methods and Models in
 Each winter semester has its own branch (`2024_WS`, `2025_WS`, `2026_WS`, ...). This is the `2026_WS` branch.
 
 ### folder structure
-Code and data are kept apart: all code is in this repository, all data goes in the `data` folder, sorted by lecture.
+Code and data are kept apart, with one folder per lecture or homework in each: all code is in this repository, all data goes in the `data` folder.
 
 📂 TUW_231028
 - 📄 README.md
 - 📄 .gitignore
-- 📄 exercise.ipynb: Lecture 4 exercise, for students less familiar with Python
-- 📄 exercise_empty.ipynb: Lecture 4 exercise, for students already good with Python
-- 📄 homework.ipynb: a small homework
 - 📂 Lecture_3
   - 📄 descriptive_statistics.ipynb
   - 📄 regression_prepare.ipynb
@@ -19,17 +16,22 @@ Code and data are kept apart: all code is in this repository, all data goes in t
   - 📄 discrete_choice.ipynb
   - 📄 discrete_choice_RUM.ipynb
   - 📄 transit_sim.py
-- 📂 util
-  - 📄 haversine.py: used to calculate haversine distance between two coordinates
+- 📂 Lecture_4
+  - 📄 exercise.ipynb: for students less familiar with Python
+  - 📄 exercise_empty.ipynb: for students already good with Python
+  - 📂 util
+    - 📄 haversine.py: used to calculate haversine distance between two coordinates
+- 📂 Homework_2
+  - 📄 homework.ipynb
 - 📂 data *(not in this repository, download separately, see below)*
   - 📂 Lecture_3
     - 📄 README.md: data sources
     - 📂 regression_emission_data
     - 📂 vienna_gtfs
-  - 📂 Lecture_4 (used by exercise.ipynb and exercise_empty.ipynb)
+  - 📂 Lecture_4
     - 📂 GPS
     - 📂 survey_data
-  - 📂 Homework (used by homework.ipynb)
+  - 📂 Homework_2
     - 📄 data_source.txt
     - 📂 GTFS
 
@@ -39,17 +41,14 @@ The data is not part of this repository. Download the zip file(s) you need from 
 | zip file | needed for |
 |---|---|
 | `Lecture_3.zip` | notebooks in `Lecture_3` |
-| `Lecture_4.zip` | `exercise.ipynb`, `exercise_empty.ipynb` |
-| `Homework.zip` | `homework.ipynb` |
+| `Lecture_4.zip` | notebooks in `Lecture_4` |
+| `Homework_2.zip` | notebook in `Homework_2` |
 
-- **Locally:** unzip into the `data` folder in the root of this repository, so you get `data/Lecture_3/...`, `data/Lecture_4/...` and `data/Homework/...`.
-- **On Google Colab:** upload the zip file and run e.g. `!unzip -o Homework.zip -d data`. The first cells of each notebook show how.
+- **Locally:** unzip into the `data` folder in the root of this repository, so you get `data/Lecture_3/...`, `data/Lecture_4/...` and `data/Homework_2/...`.
+- **On Google Colab:** upload the zip file and run e.g. `!unzip -o Homework_2.zip -d data`. The first cells of each notebook show how.
 
 ### how to use
-It is recommended to run the scripts on Google Colab:
-* Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/exercise.ipynb)
-* Exercise (empty): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/exercise_empty.ipynb)
-* Homework: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/homework.ipynb)
+It is recommended to run the scripts on Google Colab.
 
 Lecture 3:
 * Descriptive statistics: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/descriptive_statistics.ipynb)
@@ -57,3 +56,10 @@ Lecture 3:
 * Regression: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/regression.ipynb)
 * Discrete choice: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/discrete_choice.ipynb)
 * Discrete choice (random utility): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/discrete_choice_RUM.ipynb)
+
+Lecture 4:
+* Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_4/exercise.ipynb)
+* Exercise (empty): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_4/exercise_empty.ipynb)
+
+Homework 2:
+* Homework: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Homework_2/homework.ipynb)
