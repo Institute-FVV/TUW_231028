@@ -1,8 +1,6 @@
 # Statistics exercises (WS 2026)
 This folder contains exercises for TU Wien course 231.028 "Methods and Models in Transport and Settlement Planning".
 
-Each winter semester has its own branch (`2024_WS`, `2025_WS`, `2026_WS`, ...). This is the `2026_WS` branch.
-
 ### folder structure
 Code and data are kept apart, with one folder per lecture or homework in each: all code is in this repository, all data goes in the `data` folder.
 
