@@ -50,3 +50,10 @@ It is recommended to run the scripts on Google Colab:
 * Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/exercise.ipynb)
 * Exercise (empty): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/exercise_empty.ipynb)
 * Homework: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/homework.ipynb)
+
+Lecture 3:
+* Descriptive statistics: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/descriptive_statistics.ipynb)
+* Regression (preparation): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/regression_prepare.ipynb)
+* Regression: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/regression.ipynb)
+* Discrete choice: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/discrete_choice.ipynb)
+* Discrete choice (random utility): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2026_WS/Lecture_3/discrete_choice_RUM.ipynb)

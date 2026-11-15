@@ -7,10 +7,6 @@ import geopandas as gpd
 from shapely.wkt import loads
 from shapely.geometry import Point
 
-### shortest path
-sys.path.insert(0, '/Users/bingyu')
-from sp import interface
-
 ### plotting
 import matplotlib as mpl
 import matplotlib.pyplot as plt
