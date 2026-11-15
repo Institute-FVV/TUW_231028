@@ -27,6 +27,6 @@ Note: the data folder is stored externally at this [link](https://tuwienacat-my.
 
 ### how to use
 It is recommended to run the scripts on Google Colab:
-* Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bz247/TUW_231028/blob/main/exercise.ipynb)
-* Exercise (empty): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bz247/TUW_231028/blob/main/exercise_empty.ipynb)
-* Homework: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bz247/TUW_231028/blob/main/homework.ipynb)
+* Exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2025_WS/exercise.ipynb)
+* Exercise (empty): [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2025_WS/exercise_empty.ipynb)
+* Homework: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Institute-FVV/TUW_231028/blob/2025_WS/homework.ipynb)
