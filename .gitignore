@@ -24,3 +24,4 @@ data
 # data is shared separately (see README), never committed
 __pycache__
 .DS_Store
+regression_data_prepared.csv
