@@ -2,7 +2,7 @@
 This folder contains exercises for TU Wien course 231.028 "Methods and Models in Transport and Settlement Planning".
 
 ### folder structure
-📂 TUW_231028sur
+📂 TUW_231028
 - 📄 README.md
 - 📄 .gitignore
 - 📄 exercise.ipynb: for students less familiar with Python
@@ -16,7 +16,7 @@ This folder contains exercises for TU Wien course 231.028 "Methods and Models in
     - 📄 GPS_trip1.csv
     - 📄 GPS_trip2.csv
   - 📂 Survey_data
-    - 📄 survey)data.csv
+    - 📄 survey_data.csv
   - 📂 GTFS
     - 📄 agency.txt
     - 📄 calendar.txt
