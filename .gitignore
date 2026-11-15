@@ -21,3 +21,7 @@
 *.ipynb_checkpoints*
 *.aux.xml
 data
+# data is shared separately (see README), never committed
+Lecture_4_and_homewokdata
+__pycache__
+.DS_Store
