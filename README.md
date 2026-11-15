@@ -43,7 +43,7 @@ The data is not part of this repository. Download the zip file(s) you need from 
 | `Homework_2.zip` | notebook in `Homework_2` |
 
 - **Locally:** unzip into the `data` folder in the root of this repository, so you get `data/Lecture_3/...`, `data/Lecture_4/...` and `data/Homework_2/...`.
-- **On Google Colab:** upload the zip file and run e.g. `!unzip -o Homework_2.zip -d data`. The first cells of each notebook show how.
+- **On Google Colab:** the first cells of each notebook download and unzip the data automatically. If that fails, download the zip manually, upload it to Colab and run e.g. `!unzip -o Homework_2.zip -d data`.
 
 ### how to use
 It is recommended to run the scripts on Google Colab.
